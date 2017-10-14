@@ -1,5 +1,29 @@
-#title{
-    text-align: center;
-    font-weight: bold;
+header,body,footer{
     font-family: Verdana;
+    text-align: center;
 }
+
+#navBar{
+    background: #7F8F99;
+    padding : 10px 0 10px 0;
+    margin : 0px;
+    width: 100%;
+}
+
+hr{
+    margin: 0px;
+    padding: 0px 0 0px 0;
+    background: #7F8F99;
+}
+
+#title{
+    background: #6CA7CC;
+    margin: 0px;
+    padding: 10px 0 10px 0;
+    width: 100%;
+}
+
+body{
+
+}
+
