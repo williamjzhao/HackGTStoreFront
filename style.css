@@ -1,29 +1,95 @@
-header,body,footer{
-    font-family: Verdana;
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+
+body{
+    background: #E4F9F5;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Open Sans', 'Verdana', sans-serif;
     text-align: center;
+    color:#40514E;
+}
+
+nav a{
+    padding: 20px;
 }
 
 #navBar{
-    background: #7F8F99;
+    background: #30E3CA;
     padding : 10px 0 10px 0;
-    margin : 0px;
-    width: 100%;
+    margin-left: -40px;
+    margin-right:-40px;
 }
 
-hr{
+.content {
+    flex-grow: 1;
+}
+
+.header{
+    margin-top: 40px;
+    font-size: 50px;
+    margin-bottom: 0px;
+    font-weight: lighter;
+}
+
+.button-container {
+    padding: 30px;
+}
+
+.button-container .button {
+    display: inline-block;
+}
+
+button {
+  color: #40514E;
+  background-color: #30E3CA;
+  border: none;
+}
+
+button:hover,
+button.hover {
+  background-color: #E4F9F5;
+  text-shadow: -1px 1px #30E3CA;
+}
+
+
+#cButton,#mButton{
+    padding: 50px; 
+    width: 200px;
+    margin-bottom: 0px;  
+    vertical-align: top;
+    background: #30E3CA;
+    color: #40514E;
+    font-size: 20px;
+}
+
+#homePic{
+    margin-bottom: 10px;
+}
+
+hr {
     margin: 0px;
     padding: 0px 0 0px 0;
-    background: #7F8F99;
+    margin-left: -40px;
+    margin-right:-40px;
 }
 
 #title{
-    background: #6CA7CC;
+    background: #E4F9F5;
     margin: 0px;
     padding: 10px 0 10px 0;
-    width: 100%;
+    margin-right: -40px;
+    margin-left: -40px;
+    margin-top:-10px;
 }
 
-body{
-
+footer{
+    text-align: center;
+    bottom:0px;
+    height:40px;
+    padding: 10px 10px;
 }
-

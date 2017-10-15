@@ -1,36 +1,48 @@
 <!DOCTYPE html>
 <html>
-    <header>
+    <head>
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
         <meta charset="UTF-8"/>
         <title>Cacti-Store</title>
         <link rel="stylesheet" href="style.css" type="text/css"/>
-        <div id="title">
-            <h1 style="font-weight:lighter">Cacti-Store</h1>
-        </div>
-        <hr>
-        <div class="navbar navbar-static-top">
-            <nav id = "navBar">
-                <a href="index.html" target="_parent" style="text-align:center">Home</a>
-            </nav>
-        </div>
-        <hr>
-    </header>
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,700" rel="stylesheet">        
+    </head>
     <body>
-        <p id = "introQuestion">Which one are you?</p> 
-        <nav>
-            <div id = "customer">
-                <button id = "cButton">Customer</button>
+        <header>
+            <div id="title">
+                <h1 style="font-weight:bolder">Cacti-Store</h1>
             </div>
-            <div id = "merchant">
-                <button id = "mButton">Merchant</button>
+            <hr>
+            <div class="navbar navbar-static-top">
+                <nav id = "navBar">
+                    <a href="index.html" target="_parent">Home</a>
+                    <a href="customerLogin.html" target="_parent">Customer</a>
+                    <a href="merchantLogin.html" target="_parent">Merchant</a>
+                </nav>
             </div>
-        </nav>
-    </body>
-    <footer>
-        <div id = "footer">
-            Code-o-Dores Inc <br>
-            North Ave NW, Atlanta, GA 30332            
+            <hr>
+        </header>
+        <div class="content">
+            <p class = "header">Which one are you?</p> 
+            <div class="button-container">
+                <div class = "button">
+                    <button id = "cButton" onclick="window.location.href='customerLogin.html'">Customer</button>
+                </div>
+                <div class = "button">
+                    <button id = "mButton" onclick="window.location.href='merchantLogin.html'">Merchant</button>
+                </div>
+            </div>
+            <div>
+                <img alt="Embedded Image" width="375" height="360" id = "homePic"
+                    src="https://i.pinimg.com/originals/b3/0e/13/b30e130cf6c444eb90e29d43146c4668.png" />            
+            </div>
         </div>
-    </footer>
+        <hr>
+        <footer>
+            <div id = "footer">
+                Code-o-Dores Inc <br>
+                North Ave NW, Atlanta, GA 30332            
+            </div>
+        </footer>
+    </body>
 </html>
