@@ -18,6 +18,32 @@ nav a{
     padding: 20px;
 }
 
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+    margin-left: 270px;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}
+
 #navBar{
     background: #30E3CA;
     padding : 10px 0 10px 0;
@@ -44,10 +70,75 @@ nav a{
     display: inline-block;
 }
 
+.profileSpace button{
+    color: #40514E;
+    background-color: #30E3CA;
+    font-size: 15px;
+    border-radius: 5px;
+    border-color: #40514E; 
+}
+
+.profileSpace{
+    color: #40514E;
+    background-color: #30E3CA;   
+    border-radius: 5px;
+    border-color: #40514E; 
+    width: 300px;
+    padding: 10px;
+    margin: 10px;
+}
+
+div.profileSpace p{
+    margin: 10px;
+}
+
+#profileBar{
+    position: fixed;    
+    right: 10px;
+    margin: 0px;
+    margin-right: 20px;
+    margin-top: 300px;
+    padding: 0px;
+}
+
+.profilePic{
+    width:150px;
+}
+
+.listings div{
+    color: #40514E;
+    background-color: #30E3CA;   
+    border-radius: 5px;
+    border-color: #40514E; 
+    width: 800px;
+    padding: 10px;
+    margin: 10px;
+    margin-bottom: 30px;
+    margin-left: 15px;
+    text-align: left;
+    clear: right;
+}
+.listings{
+    display: inline-block;
+    margin-top: 0px;
+    padding: 10px;  
+    margin-left: 30px;
+}
+
+.cactusPic{
+    width: 200px;
+    margin-left: 35%;
+    margin-bottom: 10px;
+    border: none;
+}
+
+div p{
+    margin: .5px;
+}
 button {
   color: #40514E;
   background-color: #30E3CA;
-  font-size: 50px;
+  font-size: 20px;
   border-radius: 5px;
   border-color: #40514E; 
 }
@@ -83,10 +174,7 @@ hr {
 #title{
     background: #E4F9F5;
     margin: 0px;
-    padding: 10px 0 10px 0;
-    margin-right: -40px;
-    margin-left: -40px;
-    margin-top:-10px;
+    font-size: 40px;
 }
 
 footer{
