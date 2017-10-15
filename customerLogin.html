@@ -12,10 +12,10 @@
                 }
                 #dropdowncnt {
                     width: 500px;
+                    margin-top: 20px;
+                    margin-left: 30.5%;
+                    font-size: 50px;
                     
-                    margin-top: 40px;
-                    margin-left: 31%;
-                    font-size: 30px;
                 }
                 .dropdown button {
                     display: block;
@@ -23,7 +23,6 @@
                     line-height: 2em;
                     text-align: center;
                     text-decoration: none;
-                    border-radius: 5px;
                     margin-bottom: 12px;
                 }
 
@@ -50,10 +49,18 @@
                 Who are you?
             </div>
             <div id="dropdowncnt">
-                <button href="customer.html">Dortha Mertz</button>
-                <button href="customer.html">Randal Schlutz</button>
-                <button href="customer.html">Darrel Powlowski</button>
+                <button id="dorthaButton" onclick= "pickDortha()">Dortha Mertz</button>
+                <button id="randalButton" onclick= "pickRandal()">Randal Schlutz</button>
+                <button id="darrelButton" onclick= "pickDarrel()">Darrel Powlowski</button>
             </div>
         </div>
+        <br><br>
+        <hr>
+        <footer>
+            <div id = "footer">
+                Code-o-Dores Inc <br>
+                North Ave NW, Atlanta, GA 30332            
+            </div>
+        </footer>
     </body>
 </html>
